@@ -1,0 +1,14 @@
+config: Namespace(labeleddata_npypath='/home/sys/s276225/uninum_ken_vector_agevc_RaAlaEars_150_128.npy', label_csvpath='/home/sys/s276225/split_utt_age_new2_school_id_reshape.csv', labellessdata_npypath='/home/sys/s276225/uninum_hikaru_vector_agevc_150e_cv21t_ciairrnd3_pseudo_128.npy', enable_ssl=False, seed=0, n_epochs=200, batch_size=20, g_lr=0.0001, d_lr=0.0001, b1=0.5, b2=0.999, n_cpu=4, latent_dim=100, num_classes=8, width=128, height=512, channels=1, sample_interval=400, n_splits=10, device='cuda:0')
+Mean Accuracy: 0.4312610577827969
+Mean F1 Score: 0.3007434056967971
+QWK Score: 0.29566612774670187
+Total Confusion Matrix:
+[[  0   1   1   1   0   0   0  20]
+ [  0  33  12  26   2   1   0 130]
+ [  0  15  26  34   2   2   0 130]
+ [  0  11   3  67  24   2   0 151]
+ [  0   3   4  31  25   8   0 160]
+ [  0   4   0  11  14  22   3 192]
+ [  0   1   1   4   5  11   2 245]
+ [  0   6   5   6  12  12   3 818]]
+Saved best model to ./saved_models/2025-07-21_09-12_best_discriminator_fold1.pt

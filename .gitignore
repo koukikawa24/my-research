@@ -1,0 +1,12 @@
+*.model
+*.pt
+*.npy
+*.zip
+*.tar.gz
+*.whl
+*.wav
+*.dt
+*.hs
+__pycache__/
+saved_models/
+save_model/

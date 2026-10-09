@@ -1,0 +1,9 @@
+full epoch 500, lr=0.000010, (20220906-041820)
+epoch 0, lr=0.000010, (19m 49s), loss_tr=2.881990 err_tr=0.460974
+epoch 1, lr=0.000010, (39m 40s), loss_tr=2.862106 err_tr=0.457872
+epoch 2, lr=0.000010, (59m 26s), loss_tr=2.853818 err_tr=0.456022
+epoch 3, lr=0.000010, (79m 14s), loss_tr=2.850694 err_tr=0.456233
+epoch 4, lr=0.000010, (99m 3s), loss_tr=2.836474 err_tr=0.453592
+epoch 5, lr=0.000010, (118m 52s), loss_tr=2.837795 err_tr=0.454119
+epoch 6, lr=0.000010, (138m 40s), loss_tr=2.843628 err_tr=0.454560
+epoch 7, lr=0.000010, (158m 31s), loss_tr=2.836591 err_tr=0.453889

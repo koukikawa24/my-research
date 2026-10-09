@@ -1,0 +1,17 @@
+config: Namespace(labeleddata_npypath='/home/sys/s276225/uninum_hikaru_vector_agevc_close64_650e_128.npy', label_csvpath='/home/sys/s276225/extract_nn/data/age_training/wav/valid64_2_relabeled_fullpath.csv', labellessdata_npypath='/home/sys/s276225/uninum_hikaru_vector_agevc_500e_cv21t_ciair_128.npy', enable_ssl=False, seed=0, n_epochs=200, batch_size=20, g_lr=0.0001, d_lr=0.0001, b1=0.5, b2=0.999, label_real=1, label_fake=0, n_cpu=4, latent_dim=100, num_classes=8, width=128, height=512, channels=1, sample_interval=400, n_splits=10, device='cuda:2')
+Mean Accuracy: 0.40236874236874237
+Mean F1 Score: 0.2923727700183905
+Mean QWK Score: 0.3138546272631645
+Accuracies: [0.34065934065934067, 0.3626373626373626, 0.2857142857142857, 0.3626373626373626, 0.5164835164835165, 0.4222222222222222, 0.5, 0.35555555555555557, 0.4, 0.4777777777777778]
+F1 Scores: [0.28295461287788654, 0.31886052543947274, 0.12698412698412698, 0.19301666075859622, 0.46620386575360606, 0.3625628079861489, 0.3333333333333333, 0.18652094717668488, 0.22857142857142854, 0.4247193913026204]
+QWK Scores: [0.6726698262243286, 0.47280130293159606, 0.0, 0.0, 0.7155938151113062, 0.6789802577006028, 0.0, 0.0, 0.0, 0.5985010706638116]
+Total Confusion Matrix:
+[[  0   2   1   1   0   0   0   3]
+ [  0   8   7  13   0   0   0  40]
+ [  0  14  10  14   4   1   0  41]
+ [  0   5   7  16   8   3   1  64]
+ [  0   2   4   8  15  13   0  51]
+ [  0   1   0   4   7   5   0 111]
+ [  0   0   0   1   6   1   0  71]
+ [  0   5   5   6   9   7   0 310]]
+Saved best model to ./saved_models/2025-12-18_19-31_best_discriminator_fold5.pt

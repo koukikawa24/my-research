@@ -1,0 +1,7 @@
+full epoch 500, lr=0.000001, (20220906-195648)
+epoch 0, lr=0.000001, (19m 53s), loss_tr=2.893146 err_tr=0.463996
+epoch 1, lr=0.000001, (39m 44s), loss_tr=2.869701 err_tr=0.459519
+epoch 2, lr=0.000001, (59m 34s), loss_tr=2.861250 err_tr=0.457688
+epoch 3, lr=0.000001, (79m 24s), loss_tr=2.857502 err_tr=0.457372
+epoch 4, lr=0.000001, (99m 13s), loss_tr=2.843068 err_tr=0.455232
+epoch 5, lr=0.000001, (119m 3s), loss_tr=2.845131 err_tr=0.455449

@@ -1,0 +1,17 @@
+config: Namespace(labeleddata_npypath='/home/sys/s276225/uninum_hikaru_vector_agevc_500e_128.npy', label_csvpath='/home/sys/s276225/split_utt_age_new2_school_id_reshape.csv', labellessdata_npypath='/home/sys/s276225/uninum_hikaru_vector_agevc_500e_cv21t_ciair_128.npy', enable_ssl=True, seed=0, n_epochs=2000, batch_size=64, g_lr=0.0001, d_lr=5e-05, b1=0.5, b2=0.999, label_real=0.9, label_fake=0.1, n_cpu=4, latent_dim=100, num_classes=8, width=128, height=512, channels=1, sample_interval=400, n_splits=10, device='cuda:0')
+Mean Accuracy: 0.5516337285902504
+Mean F1 Score: 0.5104076633474027
+Mean QWK Score: 0.6273666660895361
+Accuracies: [0.6277056277056277, 0.6147186147186147, 0.6217391304347826, 0.6043478260869565, 0.3826086956521739, 0.5260869565217391, 0.6217391304347826, 0.5695652173913044, 0.5304347826086957, 0.41739130434782606]
+F1 Scores: [0.6050464369869402, 0.6014905363583013, 0.6170102111099579, 0.5966698914705842, 0.21175827180749246, 0.5180954033229841, 0.6171935661179512, 0.5635356846846806, 0.5274510781342057, 0.24582555348092824]
+QWK Scores: [0.7890591558941872, 0.7620838818882829, 0.8489198366428683, 0.742761524344165, 0.0, 0.7440719269158442, 0.8450709395591285, 0.7764000741488332, 0.7652993215020512, 0.0]
+Total Confusion Matrix:
+[[  1   9   3   2   0   1   0   7]
+ [  1  90  31  16   5   2   3  56]
+ [  1  29  94  24   7   4   0  50]
+ [  0  18  38 108  29   8   3  54]
+ [  1   6  16  19  97  17   7  68]
+ [  1   6   5   9  25  72  26 102]
+ [  0   3   2   9  12  24  73 146]
+ [  0   7   5  12  14  40  49 735]]
+Saved best model to ./saved_models/2025-09-06_21-50_best_discriminator_fold1.pt
