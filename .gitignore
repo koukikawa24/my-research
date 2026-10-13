@@ -10,3 +10,5 @@
 __pycache__/
 saved_models/
 save_model/
+!model000000500.model
+!embedding.pth
